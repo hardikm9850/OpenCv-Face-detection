@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_righteye_2splits.xml",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_righteye_2splits.xml"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_lefteye_2splits.xml",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_lefteye_2splits.xml"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_frontalface_default.xml",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default.xml"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/eyecascade.xml",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/eyecascade.xml"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/lbpcascade_frontalface.xml",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/lbpcascade_frontalface.xml"
+    }
+]
