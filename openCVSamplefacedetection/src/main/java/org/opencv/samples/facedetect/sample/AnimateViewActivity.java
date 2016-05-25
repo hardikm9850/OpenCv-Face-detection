@@ -16,6 +16,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.widget.ImageView;
 
+import org.opencv.samples.facedetect.R;
+import org.opencv.samples.facedetect.views.AnimatedView;
+
 /**
  * Created by hardik on 20/05/16.
  */
@@ -65,33 +68,10 @@ public class AnimateViewActivity extends Activity implements SensorEventListener
     @Override
     public void onSensorChanged(SensorEvent event) {
         if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
-
             x -= (int) event.values[0];
             y += (int) event.values[1];
-
+            animatedView.setBounds(x, y);
+            animatedView.invalidateView();
         }
     }
-
-    public class AnimatedView extends ImageView {
-
-        static final int width = 350;
-        static final int height = 350;
-
-        public AnimatedView(Context context) {
-            super(context);
-
-            mDrawable = new ShapeDrawable(new OvalShape());
-            mDrawable.getPaint().setColor(0xffffAC23);
-            mDrawable.setBounds(x, y, x + width, y + height);
-        }
-
-        @Override
-        protected void onDraw(Canvas canvas) {
-
-            mDrawable.setBounds(x, y, x + width, y + height);
-            mDrawable.draw(canvas);
-            invalidate();
-        }
-    }
-
 }

@@ -13,7 +13,9 @@ import android.content.DialogInterface;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.PixelFormat;
 import android.graphics.Rect;
+import android.opengl.GLSurfaceView;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.SurfaceHolder;
@@ -26,7 +28,7 @@ import android.view.SurfaceView;
  * frame to the screen.
  * The clients shall implement CvCameraViewListener.
  */
-public abstract class CameraBridgeViewBase extends SurfaceView implements SurfaceHolder.Callback {
+public abstract class CameraBridgeViewBase extends GLSurfaceView implements SurfaceHolder.Callback {
 
     private static final String TAG = "CameraBridge";
     private static final int MAX_UNSPECIFIED = -1;
@@ -76,6 +78,7 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
         mCameraIndex = styledAttrs.getInt(R.styleable.CameraBridgeViewBase_camera_id, -1);
 
         getHolder().addCallback(this);
+        getHolder().setFormat(PixelFormat.TRANSLUCENT);
         mMaxWidth = MAX_UNSPECIFIED;
         mMaxHeight = MAX_UNSPECIFIED;
         styledAttrs.recycle();

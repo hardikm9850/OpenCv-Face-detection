@@ -37,33 +37,62 @@ containing a value of this type.
         public static final int show_fps=0x7f010000;
     }
     public static final class drawable {
-        public static final int but_face=0x7f020000;
-        public static final int but_insta=0x7f020001;
-        public static final int but_kaka=0x7f020002;
-        public static final int but_lin=0x7f020003;
-        public static final int but_twitter=0x7f020004;
-        public static final int icon=0x7f020005;
+        public static final int app_lunar_lander=0x7f020000;
+        public static final int but_face=0x7f020001;
+        public static final int but_insta=0x7f020002;
+        public static final int but_kaka=0x7f020003;
+        public static final int but_lin=0x7f020004;
+        public static final int but_twitter=0x7f020005;
+        public static final int earthrise=0x7f020006;
+        public static final int icon=0x7f020007;
+        public static final int lander_crashed=0x7f020008;
+        public static final int lander_firing=0x7f020009;
+        public static final int lander_plain=0x7f02000a;
     }
     public static final class id {
+        public static final int animated_view=0x7f060006;
         public static final int any=0x7f060000;
         public static final int back=0x7f060001;
-        public static final int fd_activity_surface_view=0x7f060004;
+        public static final int fd_activity_surface_view=0x7f060005;
         public static final int front=0x7f060002;
+        public static final int lunar=0x7f060008;
+        public static final int root_face_detetctor=0x7f060004;
         public static final int sticker=0x7f060003;
+        public static final int sticker_view=0x7f060007;
+        public static final int text=0x7f060009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int face_detect_surface_view=0x7f030001;
+        public static final int lunar_layout=0x7f030002;
     }
     public static final class raw {
         public static final int eyecascade=0x7f040000;
         public static final int haarcascade_frontalface_default=0x7f040001;
-        public static final int haarcascade_lefteye_2splits=0x7f040002;
-        public static final int haarcascade_righteye_2splits=0x7f040003;
-        public static final int lbpcascade_frontalface=0x7f040004;
+        public static final int haarcascade_frontalface_default_2=0x7f040002;
+        public static final int haarcascade_lefteye_2splits=0x7f040003;
+        public static final int haarcascade_righteye_2splits=0x7f040004;
+        public static final int lbpcascade_frontalface=0x7f040005;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
+        public static final int lunar_layout_text_text=0x7f050001;
+        public static final int menu_easy=0x7f050002;
+        public static final int menu_hard=0x7f050003;
+        public static final int menu_medium=0x7f050004;
+        public static final int menu_pause=0x7f050005;
+        public static final int menu_resume=0x7f050006;
+        public static final int menu_start=0x7f050007;
+        public static final int menu_stop=0x7f050008;
+        public static final int message_bad_angle=0x7f050009;
+        public static final int message_off_pad=0x7f05000a;
+        public static final int message_stopped=0x7f05000b;
+        public static final int message_too_fast=0x7f05000c;
+        public static final int mode_lose=0x7f05000d;
+        public static final int mode_pause=0x7f05000e;
+        public static final int mode_ready=0x7f05000f;
+        public static final int mode_win_prefix=0x7f050010;
+        public static final int mode_win_suffix=0x7f050011;
     }
     public static final class styleable {
         /** Attributes that can be used with a CameraBridgeViewBase.

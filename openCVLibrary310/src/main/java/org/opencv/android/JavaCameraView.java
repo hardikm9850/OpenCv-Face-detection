@@ -5,6 +5,7 @@ import java.util.List;
 
 import android.content.Context;
 import android.graphics.ImageFormat;
+import android.graphics.PixelFormat;
 import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import android.hardware.Camera.PreviewCallback;
@@ -16,7 +17,7 @@ import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
-import android.hardware.camera2.CameraCharacteristics;
+
 /**
  * This class is an implementation of the Bridge View between OpenCV and Java Camera.
  * This class relays on the functionality available in base class and only implements
@@ -29,7 +30,6 @@ import android.hardware.camera2.CameraCharacteristics;
 public class JavaCameraView extends CameraBridgeViewBase implements PreviewCallback {
     private static final int MAGIC_TEXTURE_ID = 10;
     private static final String TAG = "JavaCameraView";
-
     private byte mBuffer[];
     private Mat[] mFrameChain;
     private int mChainIdx = 0;
@@ -196,10 +196,13 @@ public class JavaCameraView extends CameraBridgeViewBase implements PreviewCallb
 
                     /* Finally we are ready to start the preview */
                     Log.d(TAG, "startPreview");
+
                     //Set rotation Here
                     /*setDisplayOrientation(mCamera,90);
                     mCamera.setPreviewDisplay(getHolder());
                     */
+
+                    //getHolder().setFormat(PixelFormat.TRANSLUCENT);
                     mCamera.startPreview();
                 }
                 else

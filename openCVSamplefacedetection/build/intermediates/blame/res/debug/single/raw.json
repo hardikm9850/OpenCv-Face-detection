@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_frontalface_default_2.xml",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default_2.xml"
+    },
+    {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_righteye_2splits.xml",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_righteye_2splits.xml"
     },

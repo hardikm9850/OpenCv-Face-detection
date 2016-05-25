@@ -59,6 +59,7 @@ public class CameraGLSurfaceView extends GLSurfaceView {
         setEGLContextClientVersion(2);
         setRenderer(mRenderer);
         setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
+        Log.d("!!@! ","Here CameraGLSurfaceView");
     }
 
     public void setCameraTextureListener(CameraTextureListener texListener)

@@ -1,5 +1,5 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_face_detetctor"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -8,9 +8,16 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 
-    <org.opencv.samples.facedetect.views.StickerView
-        android:id="@+id/sticker"
-        android:layout_alignTop="@id/fd_activity_surface_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</RelativeLayout>
+    <org.opencv.samples.facedetect.views.AnimatedView
+        android:id="@+id/animated_view"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/sticker_view"
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/but_kaka" />
+</FrameLayout>

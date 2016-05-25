@@ -158,7 +158,7 @@ public class CameraRenderer extends CameraGLRendererBase {
             mCameraHeight = bestHeight;
             param.setPreviewSize(bestWidth, bestHeight);
         }
-        param.set("orientation", "landscape");
+        param.set("orientation", Camera.Parameters.SCENE_MODE_LANDSCAPE);
         mCamera.setParameters(param);
         mCamera.startPreview();
         mPreviewStarted = true;

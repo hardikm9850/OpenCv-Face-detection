@@ -1,15 +1,31 @@
 [
     {
-        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/but_kaka.png",
-        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/but_kaka.png"
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/app_lunar_lander.png",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/app_lunar_lander.png"
     },
     {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/but_twitter.png",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/but_twitter.png"
     },
     {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/but_kaka.png",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/but_kaka.png"
+    },
+    {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/icon.png",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/earthrise.png",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/earthrise.png"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/lander_firing.png",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/lander_firing.png"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/lander_crashed.png",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/lander_crashed.png"
     },
     {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/but_face.png",
@@ -18,6 +34,10 @@
     {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/but_lin.png",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/but_lin.png"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/lander_plain.png",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/lander_plain.png"
     },
     {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/but_insta.png",

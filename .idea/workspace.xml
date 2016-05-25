@@ -6,21 +6,37 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="$#$#" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="@@@" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05c4ec55-2329-4645-96d3-bd22562bddd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/AnimateViewActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/CompassActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/utils/SensorHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/CompassView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/drawable/app_lunar_lander.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/drawable/earthrise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/drawable/lander_crashed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/drawable/lander_firing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/drawable/lander_plain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/lunarlander/LunarLander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/lunarlander/LunarView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/AnimatedView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/lunar_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default_2.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/PortraitCamera$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/PortraitCamera$CameraWorker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/PortraitCamera$JavaCameraFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/PortraitCamera$JavaCameraSizeAccessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/PortraitCamera.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/PortraitCamera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/FdActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/FdActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/sample/AnimateViewActivity$AnimatedView.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_openCVLibrary310_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_openCVSamplefacedetection_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_openCVSamplefacedetection_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
@@ -31,9 +47,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraBridgeViewBase$1.class" afterPath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraBridgeViewBase$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraBridgeViewBase$CvCameraViewListenerAdapter.class" afterPath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraBridgeViewBase$CvCameraViewListenerAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraBridgeViewBase.class" afterPath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraBridgeViewBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraGLRendererBase.class" afterPath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraGLRendererBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraGLSurfaceView.class" afterPath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/CameraGLSurfaceView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/JavaCameraView$CameraWorker.class" afterPath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/JavaCameraView$CameraWorker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/JavaCameraView$JavaCameraFrame.class" afterPath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/JavaCameraView$JavaCameraFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/JavaCameraView.class" afterPath="$PROJECT_DIR$/openCVLibrary310/build/intermediates/classes/release/org/opencv/android/JavaCameraView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/build/outputs/aar/openCVLibrary310-release.aar" afterPath="$PROJECT_DIR$/openCVLibrary310/build/outputs/aar/openCVLibrary310-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/FdActivity$1.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/FdActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/FdActivity.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/FdActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/MainActivity.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$drawable.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$id.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$layout.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$raw.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$string.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$styleable.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/sample/AnimateViewActivity.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/sample/AnimateViewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/views/StickerView.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/classes/debug/org/opencv/samples/facedetect/views/StickerView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/exploded-aar/faceDetection-OpenCV/openCVLibrary310/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/exploded-aar/faceDetection-OpenCV/openCVLibrary310/unspecified/jars/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/pre-dexed/debug/debug_772dbd78548ffa3e31f4bd6b602866e1024433de.jar" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/pre-dexed/debug/debug_772dbd78548ffa3e31f4bd6b602866e1024433de.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/pre-dexed/debug/faceDetection-OpenCV-openCVLibrary310-unspecified_5de5f9d2a4aa9f0d164225cfa4aed7d4e4397835.jar" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/pre-dexed/debug/faceDetection-OpenCV-openCVLibrary310-unspecified_5de5f9d2a4aa9f0d164225cfa4aed7d4e4397835.jar" />
@@ -44,13 +73,33 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraBridgeViewBase$1.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraBridgeViewBase$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraBridgeViewBase$CvCameraViewListenerAdapter.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraBridgeViewBase$CvCameraViewListenerAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraBridgeViewBase.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraBridgeViewBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraGLRendererBase.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraGLRendererBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraGLSurfaceView.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/CameraGLSurfaceView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/JavaCameraView$CameraWorker.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/JavaCameraView$CameraWorker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/JavaCameraView$JavaCameraFrame.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/JavaCameraView$JavaCameraFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/JavaCameraView.class" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/tmp/expandedArchives/classes.jar_ensdkwyx0bvuz2rwa6s2krs57/org/opencv/android/JavaCameraView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraBridgeViewBase.java" afterPath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraBridgeViewBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLRendererBase.java" afterPath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLRendererBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLSurfaceView.java" afterPath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLSurfaceView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraRenderer.java" afterPath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/JavaCameraView.java" afterPath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/JavaCameraView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/generated/source/r/debug/org/opencv/samples/facedetect/R.java" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/generated/source/r/debug/org/opencv/samples/facedetect/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/blame/res/debug/single/raw.json" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/blame/res/debug/single/raw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout/face_detect_surface_view.xml" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/res/merged/debug/layout/face_detect_surface_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/openCVSamplefacedetection.iml" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/openCVSamplefacedetection.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FdActivity.java" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FdActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FaceDectionActivity.java" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FaceDectionActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/AnimateViewActivity.java" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/AnimateViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/face_detect_surface_view.xml" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/face_detect_surface_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/values/strings.xml" />
     </list>
     <ignored path="face-detection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,144 +128,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AnimateViewActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/AnimateViewActivity.java">
+      <file leaf-file-name="FaceDectionActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FaceDectionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.21920668">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#13298#13299#0" expanded="true" />
+                <element signature="e#13344#13345#0" expanded="true" />
+                <element signature="e#15260#15261#0" expanded="true" />
+                <element signature="e#15308#15309#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompassActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/CompassActivity.java">
+      <file leaf-file-name="LunarView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/lunarlander/LunarView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StickerView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/StickerView.java">
+      <file leaf-file-name="face_detect_surface_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/face_detect_surface_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-              <folding>
-                <marker date="1463728442000" expanded="false" signature="1757:1768" placeholder=" { " />
-                <marker date="1463728442000" expanded="false" signature="1788:1794" placeholder=" }" />
-                <marker date="1463728442000" expanded="false" signature="1855:1866" placeholder=" { " />
-                <marker date="1463728442000" expanded="false" signature="1890:1896" placeholder=" }" />
-                <marker date="1463728442000" expanded="true" signature="1972:2036" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="2062:3354" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="3401:4409" placeholder="{...}" />
-                <marker date="1463728442000" expanded="false" signature="4444:4455" placeholder=" { " />
-                <marker date="1463728442000" expanded="false" signature="4470:4476" placeholder=" }" />
-                <marker date="1463728442000" expanded="true" signature="4540:4612" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="4669:5885" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="5917:6196" placeholder="{...}" />
-                <marker date="1463728442000" expanded="false" signature="6249:6260" placeholder=" { " />
-                <marker date="1463728442000" expanded="false" signature="6283:6289" placeholder=" }" />
-                <marker date="1463728442000" expanded="true" signature="6345:6816" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="6756:6787" placeholder="//..." />
-                <marker date="1463728442000" expanded="true" signature="6867:7322" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="7262:7293" placeholder="//..." />
-                <marker date="1463728442000" expanded="true" signature="7407:7731" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="7814:8140" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="8253:12082" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="12119:12261" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="12315:12667" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="12718:13068" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="13126:13325" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="13380:13498" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="13547:13739" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="13793:13985" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="14032:14071" placeholder="{...}" />
-                <marker date="1463728442000" expanded="true" signature="14150:14202" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="-5.09434">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensorHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/utils/SensorHelper.java">
+      <file leaf-file-name="CameraBridgeViewBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraBridgeViewBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+              <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompassView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/CompassView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorEvent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/SensorEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorEventListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/SensorEventListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/widget/ImageView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1214" column="17" selection-start-line="1214" selection-start-column="17" selection-end-line="1214" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8035714">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-              <folding>
-                <element signature="e#373#391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2648,14 +2605,11 @@
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/utils/DisplayUtils.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/MainActivity.java" />
-        <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/face_detect_surface_view.xml" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/utils/PortraiteCamera.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/utils/PortraitCamera.java" />
         <option value="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/PortraitCamera.java" />
-        <option value="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/JavaCameraView.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/DetectionBasedTracker.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/FdView.java" />
-        <option value="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraBridgeViewBase.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/utils/Sensor.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FdActivity.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/CompassView.java" />
@@ -2663,14 +2617,26 @@
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/StickerView.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/CompassActivity.java" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/AnimateViewActivity.java" />
+        <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/AnimatedView.java" />
+        <option value="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLRendererBase.java" />
+        <option value="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/JavaCameraView.java" />
+        <option value="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraBridgeViewBase.java" />
+        <option value="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraRenderer.java" />
+        <option value="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLSurfaceView.java" />
+        <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/lunarlander/LunarLander.java" />
+        <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/lunar_layout.xml" />
         <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/face_detect_surface_view.xml" />
+        <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/lunarlander/LunarView.java" />
+        <option value="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FaceDectionActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="x" value="1280" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -2697,6 +2663,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-detection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-detection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faceDetection-OpenCV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-detection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faceDetection-OpenCV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVSamplefacedetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-detection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faceDetection-OpenCV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVSamplefacedetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="face-detection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faceDetection-OpenCV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openCVLibrary310" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2717,301 +2756,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVSamplefacedetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVSamplefacedetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVSamplefacedetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facedetect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVSamplefacedetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facedetect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVSamplefacedetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facedetect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVSamplefacedetection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facedetect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVLibrary310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVLibrary310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVLibrary310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="face-detection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faceDetection-OpenCV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openCVLibrary310" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opencv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3020,16 +2764,19 @@
     <property name="device.picker.selection" value="1d9056c" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="SearchEverywhereHistoryKey" value="Java&#9;FILE&#9;file:///Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVLibrary310/src/main/java/org/opencv/android/JavaCameraView.java&#10;Fd&#9;FILE&#9;file:///Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FdActivity.java" />
+    <property name="SearchEverywhereHistoryKey" value="Faced&#9;FILE&#9;file:///Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FaceDectionActivity.java&#10;Java&#9;FILE&#9;file:///Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVLibrary310/src/main/java/org/opencv/android/JavaCameraView.java&#10;Fd&#9;FILE&#9;file:///Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FdActivity.java" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.opencv.android" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample" />
       <recent name="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect" />
       <recent name="$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.openCVSamplefacedetection">
@@ -3146,6 +2893,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -3376,20 +3132,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="728" extended-state="6" />
+    <frame x="1280" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78594774" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78470254" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9705882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.668357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3398,14 +3156,12 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16453674" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -3413,29 +3169,29 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9716714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9705882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.503231" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.786119" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78594774" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3479,234 +3235,189 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/camera2/CameraCharacteristics.java">
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3321918">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.07705479">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/camera2/params/Face.java">
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.28248587">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/camera2/params/TonemapCurve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25684932">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/AsyncServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/OpenCVLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/obj/local/armeabi-v7a/objs/detection_based_tracker/DetectionBasedTracker_jni.o.d">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw/haarcascade_lefteye_2splits.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="25.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw/lbpcascade_frontalface.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.4107144">
-          <caret line="90" column="42" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw/eyecascade.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Rect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Scalar.java">
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/AnimateViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30650684">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/AnimatedView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/AsyncServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25684932">
+          <caret line="237" column="25" selection-start-line="237" selection-start-column="25" selection-end-line="237" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/Camera2Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
           <folding>
-            <element signature="e#262#263#0" expanded="false" />
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#357#358#0" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#1079#1080#0" expanded="false" />
-            <element signature="e#1124#1125#0" expanded="false" />
-            <element signature="e#1153#1154#0" expanded="false" />
-            <element signature="e#1191#1192#0" expanded="false" />
-            <element signature="e#1438#1439#0" expanded="false" />
-            <element signature="e#1471#1472#0" expanded="false" />
-            <element signature="e#1499#1500#0" expanded="false" />
-            <element signature="e#1567#1568#0" expanded="false" />
-            <element signature="e#1598#1599#0" expanded="false" />
-            <element signature="e#1662#1663#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLRendererBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48801368">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/widget/ImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1110" column="27" selection-start-line="1110" selection-start-column="27" selection-end-line="1110" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/graphics/drawable/Drawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="153" column="16" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.375">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default_2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/objdetect/CascadeClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40924656">
+          <caret line="245" column="63" selection-start-line="245" selection-start-column="63" selection-end-line="245" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfRect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12842466">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/Imgproc.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1527" column="23" selection-start-line="1527" selection-start-column="23" selection-end-line="1527" selection-end-column="23" />
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="e#0#147709#0" expanded="false" />
-            <element signature="imports" expanded="false" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw/haarcascade_righteye_2splits.xml">
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Mat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/utils/DisplayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/util/FloatMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2542373">
-          <caret line="9" column="47" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.4">
-          <caret line="139" column="13" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/DetectionBasedTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3321918">
-          <caret line="384" column="29" selection-start-line="384" selection-start-column="29" selection-end-line="384" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#20430#0" expanded="false" />
-            <element signature="e#8516#8517#0" expanded="false" />
-            <element signature="e#8548#8549#0" expanded="false" />
-            <element signature="e#11152#11153#0" expanded="false" />
-            <element signature="e#11187#11188#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/face_detect_surface_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6981132">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/PortraitCamera.java">
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/OpenCVLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state vertical-scroll-proportion="-1.4400685">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/FpsMeter.java">
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/LoaderCallbackInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="130" column="35" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/BaseLoaderCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-          <folding>
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6917808">
-          <caret line="131" column="12" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.6660959">
+          <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
           <folding>
             <element signature="e#5615#5616#0" expanded="false" />
             <element signature="e#5659#5660#0" expanded="false" />
@@ -3714,94 +3425,355 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5506" column="22" selection-start-line="5506" selection-start-column="22" selection-end-line="5506" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#280082#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#37036#37051#0" expanded="false" />
+            <element signature="e#38135#38136#0" expanded="false" />
+            <element signature="e#38165#38166#0" expanded="false" />
+            <element signature="e#38552#38553#0" expanded="false" />
+            <element signature="e#38587#38588#0" expanded="false" />
+            <element signature="e#38695#38696#0" expanded="false" />
+            <element signature="e#38730#38731#0" expanded="false" />
+            <element signature="e#38833#38834#0" expanded="false" />
+            <element signature="e#38871#38872#0" expanded="false" />
+            <element signature="e#38985#38986#0" expanded="false" />
+            <element signature="e#39015#39016#0" expanded="false" />
+            <element signature="e#39129#39130#0" expanded="false" />
+            <element signature="e#39166#39167#0" expanded="false" />
+            <element signature="e#39514#39515#0" expanded="false" />
+            <element signature="e#39544#39545#0" expanded="false" />
+            <element signature="e#39681#39682#0" expanded="false" />
+            <element signature="e#39733#39734#0" expanded="false" />
+            <element signature="e#40075#40076#0" expanded="false" />
+            <element signature="e#40148#40149#0" expanded="false" />
+            <element signature="e#48983#48984#0" expanded="false" />
+            <element signature="e#49035#49036#0" expanded="false" />
+            <element signature="e#52431#52432#0" expanded="false" />
+            <element signature="e#52461#52462#0" expanded="false" />
+            <element signature="e#55061#55062#0" expanded="false" />
+            <element signature="e#55108#55109#0" expanded="false" />
+            <element signature="e#55966#55967#0" expanded="false" />
+            <element signature="e#56005#56006#0" expanded="false" />
+            <element signature="e#67446#67447#0" expanded="false" />
+            <element signature="e#67474#67475#0" expanded="false" />
+            <element signature="e#68254#68255#0" expanded="false" />
+            <element signature="e#68281#68282#0" expanded="false" />
+            <element signature="e#78226#78227#0" expanded="false" />
+            <element signature="e#78267#78268#0" expanded="false" />
+            <element signature="e#82550#82551#0" expanded="false" />
+            <element signature="e#82577#82578#0" expanded="false" />
+            <element signature="e#84275#84276#0" expanded="false" />
+            <element signature="e#84302#84303#0" expanded="false" />
+            <element signature="e#85757#85758#0" expanded="false" />
+            <element signature="e#85811#85812#0" expanded="false" />
+            <element signature="e#92856#92857#0" expanded="false" />
+            <element signature="e#92907#92908#0" expanded="false" />
+            <element signature="e#99266#99267#0" expanded="false" />
+            <element signature="e#99318#99319#0" expanded="false" />
+            <element signature="e#99488#99489#0" expanded="false" />
+            <element signature="e#99542#99543#0" expanded="false" />
+            <element signature="e#107363#107364#0" expanded="false" />
+            <element signature="e#107391#107392#0" expanded="false" />
+            <element signature="e#108766#108767#0" expanded="false" />
+            <element signature="e#108794#108795#0" expanded="false" />
+            <element signature="e#111490#111491#0" expanded="false" />
+            <element signature="e#111518#111519#0" expanded="false" />
+            <element signature="e#112748#112749#0" expanded="false" />
+            <element signature="e#112776#112777#0" expanded="false" />
+            <element signature="e#117258#117259#0" expanded="false" />
+            <element signature="e#117282#117283#0" expanded="false" />
+            <element signature="e#121787#121788#0" expanded="false" />
+            <element signature="e#121814#121815#0" expanded="false" />
+            <element signature="e#133758#133759#0" expanded="false" />
+            <element signature="e#133795#133796#0" expanded="false" />
+            <element signature="e#138032#138033#0" expanded="false" />
+            <element signature="e#138089#138090#0" expanded="false" />
+            <element signature="e#138425#138426#0" expanded="false" />
+            <element signature="e#138482#138483#0" expanded="false" />
+            <element signature="e#138784#138785#0" expanded="false" />
+            <element signature="e#138822#138823#0" expanded="false" />
+            <element signature="e#140695#140696#0" expanded="false" />
+            <element signature="e#140722#140723#0" expanded="false" />
+            <element signature="e#142424#142425#0" expanded="false" />
+            <element signature="e#142465#142466#0" expanded="false" />
+            <element signature="e#142659#142660#0" expanded="false" />
+            <element signature="e#142704#142705#0" expanded="false" />
+            <element signature="e#144414#144415#0" expanded="false" />
+            <element signature="e#144450#144451#0" expanded="false" />
+            <element signature="e#151513#151514#0" expanded="false" />
+            <element signature="e#151548#151549#0" expanded="false" />
+            <element signature="e#154871#154872#0" expanded="false" />
+            <element signature="e#154917#154918#0" expanded="false" />
+            <element signature="e#156672#156673#0" expanded="false" />
+            <element signature="e#156726#156727#0" expanded="false" />
+            <element signature="e#178899#178900#0" expanded="false" />
+            <element signature="e#178947#178948#0" expanded="false" />
+            <element signature="e#180755#180756#0" expanded="false" />
+            <element signature="e#180801#180802#0" expanded="false" />
+            <element signature="e#196008#196009#0" expanded="false" />
+            <element signature="e#196035#196036#0" expanded="false" />
+            <element signature="e#202194#202195#0" expanded="false" />
+            <element signature="e#202221#202222#0" expanded="false" />
+            <element signature="e#205912#205913#0" expanded="false" />
+            <element signature="e#205944#205945#0" expanded="false" />
+            <element signature="e#206123#206124#0" expanded="false" />
+            <element signature="e#206156#206157#0" expanded="false" />
+            <element signature="e#206720#206721#0" expanded="false" />
+            <element signature="e#206766#206767#0" expanded="false" />
+            <element signature="e#208671#208672#0" expanded="false" />
+            <element signature="e#208700#208701#0" expanded="false" />
+            <element signature="e#210420#210421#0" expanded="false" />
+            <element signature="e#210444#210445#0" expanded="false" />
+            <element signature="e#212615#212616#0" expanded="false" />
+            <element signature="e#212643#212644#0" expanded="false" />
+            <element signature="e#222590#222591#0" expanded="false" />
+            <element signature="e#222623#222624#0" expanded="false" />
+            <element signature="e#224858#224859#0" expanded="false" />
+            <element signature="e#224900#224901#0" expanded="false" />
+            <element signature="e#225492#225493#0" expanded="false" />
+            <element signature="e#225521#225522#0" expanded="false" />
+            <element signature="e#225561#225562#0" expanded="false" />
+            <element signature="e#225595#225596#0" expanded="false" />
+            <element signature="e#232061#232062#0" expanded="false" />
+            <element signature="e#232120#232121#0" expanded="false" />
+            <element signature="e#233529#233530#0" expanded="false" />
+            <element signature="e#233584#233585#0" expanded="false" />
+            <element signature="e#234727#234728#0" expanded="false" />
+            <element signature="e#234754#234755#0" expanded="false" />
+            <element signature="e#246717#246718#0" expanded="false" />
+            <element signature="e#246747#246748#0" expanded="false" />
+            <element signature="e#261243#261244#0" expanded="false" />
+            <element signature="e#261309#261310#0" expanded="false" />
+            <element signature="e#261778#261779#0" expanded="false" />
+            <element signature="e#261810#261811#0" expanded="false" />
+            <element signature="e#270644#270645#0" expanded="false" />
+            <element signature="e#270675#270676#0" expanded="false" />
+            <element signature="e#277465#277466#0" expanded="false" />
+            <element signature="e#277522#277523#0" expanded="false" />
+            <element signature="e#277796#277797#0" expanded="false" />
+            <element signature="e#277841#277842#0" expanded="false" />
+            <element signature="e#278494#278495#0" expanded="false" />
+            <element signature="e#278538#278539#0" expanded="false" />
+            <element signature="e#278605#278606#0" expanded="false" />
+            <element signature="e#278666#278667#0" expanded="false" />
+            <element signature="e#279380#279381#0" expanded="false" />
+            <element signature="e#279430#279431#0" expanded="false" />
+            <element signature="e#279842#279843#0" expanded="false" />
+            <element signature="e#279903#279904#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/CLAHE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1849315">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgcodecs/Imgcodecs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.104452">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/features2d/FeatureDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20547946">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28253424">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/Moments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLSurfaceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30650684">
+          <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/Imgproc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="478" column="8" selection-start-line="478" selection-start-column="8" selection-end-line="478" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1074" column="23" selection-start-line="1074" selection-start-column="23" selection-end-line="1074" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/graphics/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.518518">
+          <caret line="1323" column="16" selection-start-line="1323" selection-start-column="16" selection-end-line="1323" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/graphics/Rect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7647057">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/lunar_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.09434">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="e#1395#1413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/lunarlander/LunarLander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2127#2146#0" expanded="false" />
+            <element signature="e#2183#2201#0" expanded="false" />
+            <element signature="e#2239#2258#0" expanded="false" />
+            <element signature="e#2297#2317#0" expanded="false" />
+            <element signature="e#2354#2372#0" expanded="false" />
+            <element signature="e#2411#2431#0" expanded="false" />
+            <element signature="e#2468#2486#0" expanded="false" />
+            <element signature="e#3066#3099#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321918">
+          <caret line="310" column="29" selection-start-line="310" selection-start-column="29" selection-end-line="310" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/JavaCameraView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87157536">
-          <caret line="199" column="20" selection-start-line="199" selection-start-column="20" selection-end-line="199" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05357143">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/objdetect/CascadeClassifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48630136">
-          <caret line="152" column="5" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/DetectionBasedTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35958904">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
-            <element signature="e#457#458#0" expanded="false" />
-            <element signature="e#508#509#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/SurfaceView.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <caret line="688" column="21" selection-start-line="688" selection-start-column="21" selection-end-line="688" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/platforms/android-23/data/res/values/themes.xml">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="447" column="17" selection-start-line="447" selection-start-column="17" selection-end-line="447" selection-end-column="17" />
+          <caret line="16146" column="16" selection-start-line="16146" selection-start-column="16" selection-end-line="16146" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Mat.java">
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="523" column="15" selection-start-line="523" selection-start-column="15" selection-end-line="523" selection-end-column="15" />
-          <folding>
-            <element signature="e#17162#17163#0" expanded="false" />
-            <element signature="e#17201#17202#0" expanded="false" />
-            <element signature="e#24554#24555#0" expanded="false" />
-            <element signature="e#24602#24603#0" expanded="false" />
-            <element signature="e#24658#24659#0" expanded="false" />
-            <element signature="e#24687#24688#0" expanded="false" />
-            <element signature="e#24741#24742#0" expanded="false" />
-            <element signature="e#24770#24771#0" expanded="false" />
-            <element signature="e#24847#24848#0" expanded="false" />
-            <element signature="e#24879#24880#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/content/res/TypedArray.java">
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/drawable/but_kaka.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/StickerView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="336" column="15" selection-start-line="336" selection-start-column="15" selection-end-line="336" selection-end-column="15" />
+          <caret line="92" column="84" selection-start-line="92" selection-start-column="84" selection-end-line="92" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/res/values/attrs.xml">
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/res/layout/face_detect_surface_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state vertical-scroll-proportion="-5.09434">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/SurfaceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="206" column="17" selection-start-line="206" selection-start-column="17" selection-end-line="206" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/lunarlander/LunarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -3809,174 +3781,48 @@
     <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraBridgeViewBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/Sensor.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/opengl/GLSurfaceView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="538" column="36" selection-start-line="538" selection-start-column="28" selection-end-line="538" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/SensorEventListener2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17979452">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/SensorManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="322" column="0" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FdActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+          <caret line="163" column="38" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#19309#19310#0" expanded="true" />
+            <element signature="e#19360#19361#0" expanded="true" />
+            <element signature="e#20054#20055#0" expanded="true" />
+            <element signature="e#20095#20096#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/View.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/SurfaceView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14007" column="19" selection-start-line="14007" selection-start-column="19" selection-end-line="14007" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.30167013">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <folding>
+            <element signature="e#7926#7927#0" expanded="true" />
+            <element signature="e#7963#7964#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/widget/ImageView.java">
+    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/FaceDectionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1214" column="17" selection-start-line="1214" selection-start-column="17" selection-end-line="1214" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/SensorEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/hardware/SensorEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/CompassView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.21920668">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/utils/SensorHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/views/StickerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <marker date="1463728442000" expanded="false" signature="1757:1768" placeholder=" { " />
-            <marker date="1463728442000" expanded="false" signature="1788:1794" placeholder=" }" />
-            <marker date="1463728442000" expanded="false" signature="1855:1866" placeholder=" { " />
-            <marker date="1463728442000" expanded="false" signature="1890:1896" placeholder=" }" />
-            <marker date="1463728442000" expanded="true" signature="1972:2036" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="2062:3354" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="3401:4409" placeholder="{...}" />
-            <marker date="1463728442000" expanded="false" signature="4444:4455" placeholder=" { " />
-            <marker date="1463728442000" expanded="false" signature="4470:4476" placeholder=" }" />
-            <marker date="1463728442000" expanded="true" signature="4540:4612" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="4669:5885" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="5917:6196" placeholder="{...}" />
-            <marker date="1463728442000" expanded="false" signature="6249:6260" placeholder=" { " />
-            <marker date="1463728442000" expanded="false" signature="6283:6289" placeholder=" }" />
-            <marker date="1463728442000" expanded="true" signature="6345:6816" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="6756:6787" placeholder="//..." />
-            <marker date="1463728442000" expanded="true" signature="6867:7322" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="7262:7293" placeholder="//..." />
-            <marker date="1463728442000" expanded="true" signature="7407:7731" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="7814:8140" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="8253:12082" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="12119:12261" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="12315:12667" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="12718:13068" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="13126:13325" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="13380:13498" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="13547:13739" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="13793:13985" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="14032:14071" placeholder="{...}" />
-            <marker date="1463728442000" expanded="true" signature="14150:14202" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/CompassActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/java/org/opencv/samples/facedetect/sample/AnimateViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVSamplefacedetection/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8035714">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-          <folding>
-            <element signature="e#373#391#0" expanded="true" />
+            <element signature="e#13298#13299#0" expanded="true" />
+            <element signature="e#13344#13345#0" expanded="true" />
+            <element signature="e#15260#15261#0" expanded="true" />
+            <element signature="e#15308#15309#0" expanded="true" />
           </folding>
         </state>
       </provider>

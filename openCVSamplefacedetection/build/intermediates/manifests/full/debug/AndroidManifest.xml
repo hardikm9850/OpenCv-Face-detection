@@ -37,7 +37,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-            android:name="org.opencv.samples.facedetect.sample.AnimateViewActivity"
+            android:name="org.opencv.samples.facedetect.FaceDectionActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape" >
             <intent-filter>

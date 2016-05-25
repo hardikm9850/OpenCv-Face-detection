@@ -8,7 +8,6 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
 import org.opencv.android.CameraGLSurfaceView.CameraTextureListener;
-
 import android.annotation.TargetApi;
 import android.graphics.SurfaceTexture;
 import android.opengl.GLES11Ext;
