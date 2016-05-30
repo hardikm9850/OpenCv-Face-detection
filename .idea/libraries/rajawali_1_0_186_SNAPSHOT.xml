@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="rajawali-1.0.186-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/b6550ec0f08a203266c1b33e08a121c70f565f2a/rajawali-1.0.186-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

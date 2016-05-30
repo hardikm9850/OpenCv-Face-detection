@@ -1,23 +1,67 @@
 [
     {
-        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_frontalface_default_2.xml",
-        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default_2.xml"
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/sepia_fragment_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/sepia_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/blend_add_fragment_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/blend_add_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/minimal_vertex_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/minimal_vertex_shader.glsl"
     },
     {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_righteye_2splits.xml",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_righteye_2splits.xml"
     },
     {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_frontalface_default_2.xml",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default_2.xml"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/eyecascade.xml",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/eyecascade.xml"
+    },
+    {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_lefteye_2splits.xml",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_lefteye_2splits.xml"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/vignette_fragment_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/vignette_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/copy_fragment_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/copy_fragment_shader.glsl"
     },
     {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/haarcascade_frontalface_default.xml",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/haarcascade_frontalface_default.xml"
     },
     {
-        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/eyecascade.xml",
-        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/eyecascade.xml"
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/blur_fragment_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/blur_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/block10_mtl.mtl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/raw/block10_mtl.mtl"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/blend_screen_fragment_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/blend_screen_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/color_threshold_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/color_threshold_shader.glsl"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/fog_fragment_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/fog_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/grey_scale_fragment_shader.glsl",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/raw/grey_scale_fragment_shader.glsl"
     },
     {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/raw/lbpcascade_frontalface.xml",

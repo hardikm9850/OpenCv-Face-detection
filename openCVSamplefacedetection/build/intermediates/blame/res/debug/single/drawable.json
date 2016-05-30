@@ -8,6 +8,10 @@
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/but_twitter.png"
     },
     {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/earthrise.png",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/earthrise.png"
+    },
+    {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/but_kaka.png",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/but_kaka.png"
     },
@@ -16,12 +20,12 @@
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/icon.png"
     },
     {
-        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/earthrise.png",
-        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/earthrise.png"
-    },
-    {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/lander_firing.png",
         "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/lander_firing.png"
+    },
+    {
+        "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/round_button.jpg",
+        "source": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/drawable/round_button.jpg"
     },
     {
         "merged": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/res/merged/debug/drawable/lander_crashed.png",

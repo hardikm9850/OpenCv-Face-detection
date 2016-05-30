@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr format="float" name="frameRate"/>
+    <attr format="boolean" name="isTransparent"/>
+    <attr format="boolean" name="multisamplingEnabled"/>
+    <attr format="enum" name="renderMode">
+        <enum name="RENDER_WHEN_DIRTY" value="0"/>
+        <enum name="RENDER_CONTINUOUS" value="1"/>
+    </attr>
+    <attr format="boolean" name="useCoverageAntiAliasing"/>
     <declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id"><enum name="any" value="-1"/><enum name="back" value="99"/><enum name="front" value="98"/></attr></declare-styleable>
+    <declare-styleable name="RajawaliSurfaceView"><attr name="frameRate"/><attr name="renderMode"/><attr name="multisamplingEnabled"/><attr name="useCoverageAntiAliasing"/><attr name="isTransparent"/></declare-styleable>
+    <declare-styleable name="RajawaliTextureView"><attr name="frameRate"/><attr name="renderMode"/><attr name="multisamplingEnabled"/><attr name="useCoverageAntiAliasing"/></declare-styleable>
     <string name="app_name">OCV Face Detection</string>
     <string name="lunar_layout_text_text"/>
     <string name="menu_easy">Easy</string>

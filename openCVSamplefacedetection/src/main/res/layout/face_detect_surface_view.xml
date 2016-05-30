@@ -5,19 +5,23 @@
 
     <org.opencv.android.JavaCameraView
         android:id="@+id/fd_activity_surface_view"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    <org.opencv.samples.facedetect.views.AnimatedView
-        android:id="@+id/animated_view"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+
+    <ImageView
+        android:id="@+id/img_camera_click"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="20dp"
+        android:src="@drawable/round_button"
         android:visibility="gone" />
 
     <ImageView
         android:id="@+id/sticker_view"
-        android:visibility="gone"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/but_kaka" />
+        android:visibility="gone"
+        android:src="@drawable/but_twitter" />
 </FrameLayout>

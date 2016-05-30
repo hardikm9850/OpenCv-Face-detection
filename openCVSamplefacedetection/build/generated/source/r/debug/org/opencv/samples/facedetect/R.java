@@ -26,7 +26,15 @@ containing a value of this type.
 <tr><td><code>front</code></td><td>98</td><td></td></tr>
 </table>
          */
-        public static final int camera_id=0x7f010001;
+        public static final int camera_id=0x7f010006;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int frameRate=0x7f010000;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -34,7 +42,42 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int show_fps=0x7f010000;
+        public static final int isTransparent=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int multisamplingEnabled=0x7f010002;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>RENDER_WHEN_DIRTY</code></td><td>0</td><td></td></tr>
+<tr><td><code>RENDER_CONTINUOUS</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int renderMode=0x7f010003;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int show_fps=0x7f010005;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useCoverageAntiAliasing=0x7f010004;
     }
     public static final class drawable {
         public static final int app_lunar_lander=0x7f020000;
@@ -48,31 +91,47 @@ containing a value of this type.
         public static final int lander_crashed=0x7f020008;
         public static final int lander_firing=0x7f020009;
         public static final int lander_plain=0x7f02000a;
+        public static final int round_button=0x7f02000b;
     }
     public static final class id {
-        public static final int animated_view=0x7f060006;
-        public static final int any=0x7f060000;
-        public static final int back=0x7f060001;
-        public static final int fd_activity_surface_view=0x7f060005;
-        public static final int front=0x7f060002;
-        public static final int lunar=0x7f060008;
-        public static final int root_face_detetctor=0x7f060004;
-        public static final int sticker=0x7f060003;
-        public static final int sticker_view=0x7f060007;
-        public static final int text=0x7f060009;
+        public static final int RENDER_CONTINUOUS=0x7f060000;
+        public static final int RENDER_WHEN_DIRTY=0x7f060001;
+        public static final int any=0x7f060002;
+        public static final int back=0x7f060003;
+        public static final int fd_activity_surface_view=0x7f060007;
+        public static final int front=0x7f060004;
+        public static final int image_manipulations_activity_surface_view=0x7f06000a;
+        public static final int img_camera_click=0x7f060008;
+        public static final int lunar=0x7f06000b;
+        public static final int root_face_detetctor=0x7f060006;
+        public static final int sticker=0x7f060005;
+        public static final int sticker_view=0x7f060009;
+        public static final int text=0x7f06000c;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int face_detect_surface_view=0x7f030001;
-        public static final int lunar_layout=0x7f030002;
+        public static final int image_manipulations_surface_view=0x7f030002;
+        public static final int lunar_layout=0x7f030003;
     }
     public static final class raw {
-        public static final int eyecascade=0x7f040000;
-        public static final int haarcascade_frontalface_default=0x7f040001;
-        public static final int haarcascade_frontalface_default_2=0x7f040002;
-        public static final int haarcascade_lefteye_2splits=0x7f040003;
-        public static final int haarcascade_righteye_2splits=0x7f040004;
-        public static final int lbpcascade_frontalface=0x7f040005;
+        public static final int blend_add_fragment_shader=0x7f040000;
+        public static final int blend_screen_fragment_shader=0x7f040001;
+        public static final int block10_mtl=0x7f040002;
+        public static final int blur_fragment_shader=0x7f040003;
+        public static final int color_threshold_shader=0x7f040004;
+        public static final int copy_fragment_shader=0x7f040005;
+        public static final int eyecascade=0x7f040006;
+        public static final int fog_fragment_shader=0x7f040007;
+        public static final int grey_scale_fragment_shader=0x7f040008;
+        public static final int haarcascade_frontalface_default=0x7f040009;
+        public static final int haarcascade_frontalface_default_2=0x7f04000a;
+        public static final int haarcascade_lefteye_2splits=0x7f04000b;
+        public static final int haarcascade_righteye_2splits=0x7f04000c;
+        public static final int lbpcascade_frontalface=0x7f04000d;
+        public static final int minimal_vertex_shader=0x7f04000e;
+        public static final int sepia_fragment_shader=0x7f04000f;
+        public static final int vignette_fragment_shader=0x7f040010;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
@@ -108,7 +167,7 @@ containing a value of this type.
            @see #CameraBridgeViewBase_show_fps
          */
         public static final int[] CameraBridgeViewBase = {
-            0x7f010000, 0x7f010001
+            0x7f010005, 0x7f010006
         };
         /**
           <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#camera_id}
@@ -148,5 +207,178 @@ containing a value of this type.
           @attr name org.opencv.samples.facedetect:show_fps
         */
         public static final int CameraBridgeViewBase_show_fps = 0;
+        /** Attributes that can be used with a RajawaliSurfaceView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RajawaliSurfaceView_frameRate org.opencv.samples.facedetect:frameRate}</code></td><td></td></tr>
+           <tr><td><code>{@link #RajawaliSurfaceView_isTransparent org.opencv.samples.facedetect:isTransparent}</code></td><td></td></tr>
+           <tr><td><code>{@link #RajawaliSurfaceView_multisamplingEnabled org.opencv.samples.facedetect:multisamplingEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #RajawaliSurfaceView_renderMode org.opencv.samples.facedetect:renderMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #RajawaliSurfaceView_useCoverageAntiAliasing org.opencv.samples.facedetect:useCoverageAntiAliasing}</code></td><td></td></tr>
+           </table>
+           @see #RajawaliSurfaceView_frameRate
+           @see #RajawaliSurfaceView_isTransparent
+           @see #RajawaliSurfaceView_multisamplingEnabled
+           @see #RajawaliSurfaceView_renderMode
+           @see #RajawaliSurfaceView_useCoverageAntiAliasing
+         */
+        public static final int[] RajawaliSurfaceView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#frameRate}
+          attribute's value can be found in the {@link #RajawaliSurfaceView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.opencv.samples.facedetect:frameRate
+        */
+        public static final int RajawaliSurfaceView_frameRate = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#isTransparent}
+          attribute's value can be found in the {@link #RajawaliSurfaceView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.opencv.samples.facedetect:isTransparent
+        */
+        public static final int RajawaliSurfaceView_isTransparent = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#multisamplingEnabled}
+          attribute's value can be found in the {@link #RajawaliSurfaceView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.opencv.samples.facedetect:multisamplingEnabled
+        */
+        public static final int RajawaliSurfaceView_multisamplingEnabled = 2;
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#renderMode}
+          attribute's value can be found in the {@link #RajawaliSurfaceView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>RENDER_WHEN_DIRTY</code></td><td>0</td><td></td></tr>
+<tr><td><code>RENDER_CONTINUOUS</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name org.opencv.samples.facedetect:renderMode
+        */
+        public static final int RajawaliSurfaceView_renderMode = 3;
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#useCoverageAntiAliasing}
+          attribute's value can be found in the {@link #RajawaliSurfaceView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.opencv.samples.facedetect:useCoverageAntiAliasing
+        */
+        public static final int RajawaliSurfaceView_useCoverageAntiAliasing = 4;
+        /** Attributes that can be used with a RajawaliTextureView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RajawaliTextureView_frameRate org.opencv.samples.facedetect:frameRate}</code></td><td></td></tr>
+           <tr><td><code>{@link #RajawaliTextureView_multisamplingEnabled org.opencv.samples.facedetect:multisamplingEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #RajawaliTextureView_renderMode org.opencv.samples.facedetect:renderMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #RajawaliTextureView_useCoverageAntiAliasing org.opencv.samples.facedetect:useCoverageAntiAliasing}</code></td><td></td></tr>
+           </table>
+           @see #RajawaliTextureView_frameRate
+           @see #RajawaliTextureView_multisamplingEnabled
+           @see #RajawaliTextureView_renderMode
+           @see #RajawaliTextureView_useCoverageAntiAliasing
+         */
+        public static final int[] RajawaliTextureView = {
+            0x7f010000, 0x7f010002, 0x7f010003, 0x7f010004
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#frameRate}
+          attribute's value can be found in the {@link #RajawaliTextureView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.opencv.samples.facedetect:frameRate
+        */
+        public static final int RajawaliTextureView_frameRate = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#multisamplingEnabled}
+          attribute's value can be found in the {@link #RajawaliTextureView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.opencv.samples.facedetect:multisamplingEnabled
+        */
+        public static final int RajawaliTextureView_multisamplingEnabled = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#renderMode}
+          attribute's value can be found in the {@link #RajawaliTextureView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>RENDER_WHEN_DIRTY</code></td><td>0</td><td></td></tr>
+<tr><td><code>RENDER_CONTINUOUS</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name org.opencv.samples.facedetect:renderMode
+        */
+        public static final int RajawaliTextureView_renderMode = 2;
+        /**
+          <p>This symbol is the offset where the {@link org.opencv.samples.facedetect.R.attr#useCoverageAntiAliasing}
+          attribute's value can be found in the {@link #RajawaliTextureView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.opencv.samples.facedetect:useCoverageAntiAliasing
+        */
+        public static final int RajawaliTextureView_useCoverageAntiAliasing = 3;
     };
 }

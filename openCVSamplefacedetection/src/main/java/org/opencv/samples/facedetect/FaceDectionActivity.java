@@ -1,19 +1,20 @@
 package org.opencv.samples.facedetect;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Paint;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.SurfaceHolder;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import org.opencv.android.BaseLoaderCallback;
@@ -22,6 +23,7 @@ import org.opencv.android.CameraBridgeViewBase.CvCameraViewFrame;
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
+import org.opencv.android.Utils;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfRect;
 import org.opencv.core.Point;
@@ -31,12 +33,13 @@ import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.objdetect.CascadeClassifier;
 import org.opencv.samples.facedetect.views.AnimatedView;
-import org.opencv.samples.facedetect.views.StickerView;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class FaceDectionActivity extends Activity implements CvCameraViewListener2, SensorEventListener {
 
@@ -67,7 +70,15 @@ public class FaceDectionActivity extends Activity implements CvCameraViewListene
     View stickerView;
     long lastTime;
     StickerVisibilityRunnable visibilityRunnable;
-    SurfaceViewCallback surfaceViewCallback;
+    int stickerId = 100;
+    CvCameraViewFrame bufferCameraFrame;
+    Bitmap stickerBitmap;
+    Mat stickerMat;
+    UpdateStickerRunnable stickerRunnable;
+    int numberOfDetectedFaces = -1;
+    ArrayList<Integer> stickerViewIdList;
+    int counter = 0;
+
     boolean flag = false;
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -86,6 +97,8 @@ public class FaceDectionActivity extends Activity implements CvCameraViewListene
                     initialiseEyeDetector();
 
                     mOpenCvCameraView.enableView();
+
+
                 }
                 break;
                 default: {
@@ -112,11 +125,16 @@ public class FaceDectionActivity extends Activity implements CvCameraViewListene
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.fd_activity_surface_view);
         mOpenCvCameraView.setVisibility(CameraBridgeViewBase.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
-        animatedView = (AnimatedView) findViewById(R.id.animated_view);
         stickerView = findViewById(R.id.sticker_view);
         visibilityRunnable = new StickerVisibilityRunnable();
-        surfaceViewCallback = new SurfaceViewCallback();
-        mOpenCvCameraView.getHolder().addCallback(surfaceViewCallback);
+        stickerBitmap = getBitmapFromSticker();
+        stickerRunnable = new UpdateStickerRunnable();
+        stickerViewIdList = new ArrayList<>();
+    }
+
+    private void getMatFromBitmap() {
+        Utils.bitmapToMat(stickerBitmap, stickerMat
+        );
     }
 
     @Override
@@ -162,31 +180,25 @@ public class FaceDectionActivity extends Activity implements CvCameraViewListene
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
         mRgba = inputFrame.rgba();
         mGray = inputFrame.gray();
-        Long currentTime = System.currentTimeMillis();
-        if (lastTime == 0) {
-            lastTime = currentTime;
-        }
-        if (currentTime - lastTime > 500) {
-            if (mAbsoluteFaceSize == 0) {
-                int height = mGray.rows();
-                if (Math.round(height * mRelativeFaceSize) > 0) {
-                    mAbsoluteFaceSize = Math.round(height * mRelativeFaceSize);
-                }
-                mNativeDetector.setMinFaceSize(mAbsoluteFaceSize);
+        if (mAbsoluteFaceSize == 0) {
+            int height = mGray.rows();
+            if (Math.round(height * mRelativeFaceSize) > 0) {
+                mAbsoluteFaceSize = Math.round(height * mRelativeFaceSize);
             }
+            mNativeDetector.setMinFaceSize(mAbsoluteFaceSize);
+        }
 
+        if (counter % 5 == 0) {
             MatOfRect faces = new MatOfRect();
 
             detectFace(faces);
 
             detectEyes(faces);
-
         }
+        counter++;
+        bufferCameraFrame = inputFrame;
         return mRgba;
-
     }
-
-
 
 
     private void initialiseFaceDetector() {
@@ -245,32 +257,137 @@ public class FaceDectionActivity extends Activity implements CvCameraViewListene
         }
     }
 
+
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
 
+    private void onImageCaptureClicked() {
+
+        Bitmap mBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.but_twitter);
+        Mat myMat = new Mat();
+        Utils.bitmapToMat(mBitmap, myMat);
+
+        Utils.matToBitmap(myMat, mBitmap);
+
+        Canvas canvas = mOpenCvCameraView.getHolder().lockCanvas();
+        canvas.drawBitmap(mBitmap, 0f, 0f, null);
+        mOpenCvCameraView.getHolder().unlockCanvasAndPost(canvas);
+        //Mat captureMat = bufferCameraFrame.gray();
+        /*MatOfRect faces = new MatOfRect();
+
+        if (mJavaDetector != null) //CascadeClassifier file
+            mJavaDetector.detectMultiScale(captureMat, faces, 1.1, 6, 2, // TODO: objdetect.CV_HAAR_SCALE_IMAGE
+                    new Size(mAbsoluteFaceSize, mAbsoluteFaceSize), new Size());
+
+        Rect[] facesArray = faces.toArray();
+        if (facesArray.length > 0) {
+            for (int i = 0; i < facesArray.length; i++) {
+                Imgproc.rectangle(captureMat, facesArray[i].tl(), facesArray[i].br(), FACE_RECT_COLOR, 3);
+                surfaceViewCallback.drawOverCanvas(stickerBitmap, facesArray[i].tl(), facesArray[i]);
+            }
+        }
+        Canvas canvas = mOpenCvCameraView.getHolder().lockCanvas();
+        canvas.drawBitmap(stickerBitmap,0f,0f,null);*/
+    }
+
+    @SuppressLint("LongLogTag")
     public void detectFace(MatOfRect faces) {
         if (mJavaDetector != null) //CascadeClassifier file
-            mJavaDetector.detectMultiScale(mGray, faces, 1.1, 6, 2, // TODO: objdetect.CV_HAAR_SCALE_IMAGE
+            mJavaDetector.detectMultiScale(mGray, faces, 1.4, 4, 2,
                     new Size(mAbsoluteFaceSize, mAbsoluteFaceSize), new Size());
-        Rect[] facesArray = faces.toArray();
-        UpdateStickerRunnable stickerRunnable = new UpdateStickerRunnable();
-
-        if (facesArray.length > 0) {
-            visibilityRunnable.setVisibility(true);
-            runOnUiThread(visibilityRunnable);
-            Bitmap stickerBitmap = getBitmapFromSticker();
+        final Rect[] facesArray = faces.toArray();
+        stickerRunnable = new UpdateStickerRunnable();
+        if (facesArray.length > 0) { //At least 1 face is present
+            if (numberOfDetectedFaces == facesArray.length) {
+                stickerRunnable.setNewFacesDetected(false);
+                Log.d("@@@@ setNewFacesDetected ", "false");
+            } else {
+                //Draw sticker over face
+                stickerRunnable.setNewFacesDetected(true);
+                Log.d("@@@@ setNewFacesDetected ", "true");
+            }
             for (int i = 0; i < facesArray.length; i++) {
                 Imgproc.rectangle(mRgba, facesArray[i].tl(), facesArray[i].br(), FACE_RECT_COLOR, 3);
-                surfaceViewCallback.drawOverCanvas(stickerBitmap, facesArray[i].tl(), facesArray[i]);
-                //stickerRunnable.setParams(new Double(facesArray[i].tl().x).floatValue(), new Double(facesArray[i].tl().y).floatValue());
-                //runOnUiThread(stickerRunnable);
+
+                stickerRunnable.setParams(Double.valueOf(facesArray[i].tl().x).floatValue(),
+                        Double.valueOf(facesArray[i].tl().y).floatValue());
+                runOnUiThread(stickerRunnable);
             }
-        } else {
-            visibilityRunnable.setVisibility(false);
-            runOnUiThread(visibilityRunnable);
+            numberOfDetectedFaces = facesArray.length;
+            Log.d("@@@@ numberOfDetectedFaces" + numberOfDetectedFaces, "facesArray.length " + facesArray.length);
+        } else if (numberOfDetectedFaces != -1) {
+            stickerRunnable.resetViews(true);
+            numberOfDetectedFaces = -1;
+            Log.d("@@@@ resetViews ", "");
+            runOnUiThread(stickerRunnable);
         }
+    }
+
+    @SuppressWarnings("ResourceType")
+    class UpdateStickerRunnable implements Runnable {
+        private float x, y;
+        private boolean resetViews;
+
+
+        private Rect[] facesArray;
+
+        boolean newFacesDetected = true;
+
+        @Override
+        public void run() {
+            ViewGroup parentView = (ViewGroup) findViewById(R.id.root_face_detetctor);
+
+            if (resetViews) {
+                for (int viewId : stickerViewIdList) {
+                    parentView.removeView(findViewById(viewId));
+                }
+                resetViews = false;
+                stickerViewIdList.clear();
+                Log.d("@@@@ clear views ", "343");
+                return;
+            }
+            ImageView stickerView;
+            if (newFacesDetected) {
+                stickerView = new ImageView(getApplicationContext());
+                FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(200, 200);
+                stickerView.setLayoutParams(params);
+                stickerId = org.opencv.samples.facedetect.utils.Utils.generateViewId() + 1;
+                stickerViewIdList.add(stickerId);
+                stickerView.setId(stickerId);
+                stickerView.setImageDrawable(getResources().getDrawable(R.drawable.but_twitter));
+                stickerView.setX(Float.valueOf(x).intValue());
+                stickerView.setY(Float.valueOf(y).intValue());
+                Log.d("@@@@ add view ", "360");
+                parentView.addView(stickerView);
+            } else {
+                for (int viewId : stickerViewIdList) {
+                    stickerView = (ImageView) findViewById(viewId);
+                    stickerView.setX(Float.valueOf(x).intValue());
+                    stickerView.setY(Float.valueOf(y).intValue());
+                    Log.d("#### x "+Float.valueOf(x).intValue()," y "+Float.valueOf(y).intValue());
+                }
+            }
+        }
+
+        public void setParams(float x, float y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        public void resetViews(boolean reset) {
+            resetViews = reset;
+        }
+
+        public void setNewFacesDetected(boolean newFacesDetected) {
+            this.newFacesDetected = newFacesDetected;
+        }
+
+        public void setFacesArray(Rect[] facesArray) {
+            this.facesArray = facesArray;
+        }
+
     }
 
 
@@ -300,55 +417,6 @@ public class FaceDectionActivity extends Activity implements CvCameraViewListene
         }
     }
 
-
-    class SurfaceViewCallback implements SurfaceHolder.Callback {
-
-        Canvas canvas;
-        SurfaceHolder surfaceHolder;
-
-        @Override
-        public void surfaceCreated(SurfaceHolder holder) {
-            this.surfaceHolder = holder;
-            Log.d("@@@@ ", "surfaceCreated");
-        }
-
-        @Override
-        public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
-            this.surfaceHolder = holder;
-            Log.d("@@@@ ", "surfaceChanged");
-        }
-
-        @Override
-        public void surfaceDestroyed(SurfaceHolder holder) {
-            Log.d("@@@@ ", "surfaceDestroyed");
-
-        }
-
-
-        public void drawOverCanvas(Bitmap stickerBitmap, Point stickerLocation, Rect rect) {
-            //getStickerThread(surfaceHolder).setStickerLocation(location).start();
-            Canvas canvas;
-            canvas = surfaceHolder.lockCanvas();
-
-            canvas.drawBitmap(stickerBitmap,
-                    Double.valueOf(stickerLocation.x).floatValue(), Double.valueOf(stickerLocation.y).floatValue(),
-                    null);
-
-            surfaceHolder.unlockCanvasAndPost(canvas);
-            mOpenCvCameraView.draw(canvas);
-        }
-
-    }
-
-
-
-
-
-
-    public StickerThread getStickerThread(SurfaceHolder surfaceHolder) {
-        StickerThread stickerThread = new StickerThread(surfaceHolder);
-        return stickerThread;
-    }
 
     private void initialiseEyeDetector() {
         System.loadLibrary("detection_based_tracker");
@@ -385,31 +453,7 @@ public class FaceDectionActivity extends Activity implements CvCameraViewListene
     }
 
 
-    class StickerThread extends Thread {
-        SurfaceHolder surfaceHolder;
-        Point stickerLocation;
 
-        public StickerThread(SurfaceHolder holder) {
-            surfaceHolder = holder;
-        }
-
-        @Override
-        public void run() {
-            super.run();
-            Canvas canvas = surfaceHolder.lockCanvas();
-            canvas.drawBitmap(getBitmapFromSticker(),
-                    new Double(stickerLocation.x).floatValue() + 100f, new Double(stickerLocation.y).floatValue() + 100f,
-                    null);
-
-            //mOpenCvCameraView.draw(canvas);
-            surfaceHolder.unlockCanvasAndPost(canvas);
-        }
-
-        public StickerThread setStickerLocation(Point location) {
-            stickerLocation = location;
-            return this;
-        }
-    }
 
     /*public void SaveImage (Mat mat) {
         Mat mIntermediateMat = new Mat();
@@ -431,22 +475,6 @@ public class FaceDectionActivity extends Activity implements CvCameraViewListene
             Log.d(TAG, "Fail writing image to external storage");
     }*/
 
-    class UpdateStickerRunnable implements Runnable {
-        float x, y;
-
-        @Override
-        public void run() {
-            //animatedView.invalidateView();
-            stickerView.setX(x);
-            stickerView.setY(y);
-            stickerView.invalidate();
-        }
-
-        public void setParams(float x, float y) {
-            this.x = x;
-            this.y = y;
-        }
-    }
 
     class StickerVisibilityRunnable implements Runnable {
         boolean showView;

@@ -4,23 +4,127 @@
         "map": [
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 304,
-                    "endColumn": 55,
-                    "endOffset": 355
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
                 },
                 "from": {
-                    "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml"
+                    "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 43,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 49,
+                    "endOffset": 144
+                },
+                "from": {
+                    "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 49,
+                        "endOffset": 263
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 360,
+                    "startOffset": 149,
+                    "endColumn": 56,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 56,
+                        "endOffset": 320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endLine": 8,
+                    "endColumn": 11,
+                    "endOffset": 358
+                },
+                "from": {
+                    "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endLine": 10,
+                        "endColumn": 11,
+                        "endOffset": 477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 363,
+                    "endColumn": 59,
+                    "endOffset": 418
+                },
+                "from": {
+                    "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/build/intermediates/exploded-aar/org.rajawali3d/rajawali/1.0.186-SNAPSHOT/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 482,
+                        "endColumn": 59,
+                        "endOffset": 537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1086,
+                    "endColumn": 55,
+                    "endOffset": 1137
+                },
+                "from": {
+                    "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1142,
                     "endColumn": 43,
-                    "endOffset": 399
+                    "endOffset": 1181
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -35,11 +139,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 404,
+                    "startOffset": 1186,
                     "endColumn": 42,
-                    "endOffset": 442
+                    "endOffset": 1224
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -54,11 +158,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 447,
+                    "startOffset": 1229,
                     "endColumn": 42,
-                    "endOffset": 485
+                    "endOffset": 1267
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -73,11 +177,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 490,
+                    "startOffset": 1272,
                     "endColumn": 46,
-                    "endOffset": 532
+                    "endOffset": 1314
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -92,11 +196,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 537,
+                    "startOffset": 1319,
                     "endColumn": 44,
-                    "endOffset": 577
+                    "endOffset": 1359
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -111,11 +215,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 582,
+                    "startOffset": 1364,
                     "endColumn": 46,
-                    "endOffset": 624
+                    "endOffset": 1406
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -130,11 +234,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 629,
+                    "startOffset": 1411,
                     "endColumn": 44,
-                    "endOffset": 669
+                    "endOffset": 1451
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -149,11 +253,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 674,
+                    "startOffset": 1456,
                     "endColumn": 42,
-                    "endOffset": 712
+                    "endOffset": 1494
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -168,11 +272,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 717,
+                    "startOffset": 1499,
                     "endColumn": 55,
-                    "endOffset": 768
+                    "endOffset": 1550
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -187,11 +291,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 773,
+                    "startOffset": 1555,
                     "endColumn": 59,
-                    "endOffset": 828
+                    "endOffset": 1610
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -206,11 +310,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 833,
+                    "startOffset": 1615,
                     "endColumn": 51,
-                    "endOffset": 880
+                    "endOffset": 1662
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -225,11 +329,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 885,
+                    "startOffset": 1667,
                     "endColumn": 53,
-                    "endOffset": 934
+                    "endOffset": 1716
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -244,11 +348,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 939,
+                    "startOffset": 1721,
                     "endColumn": 65,
-                    "endOffset": 1000
+                    "endOffset": 1782
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -263,11 +367,11 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1005,
+                    "startOffset": 1787,
                     "endColumn": 65,
-                    "endOffset": 1066
+                    "endOffset": 1848
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -282,11 +386,11 @@
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1071,
+                    "startOffset": 1853,
                     "endColumn": 69,
-                    "endOffset": 1136
+                    "endOffset": 1918
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -301,11 +405,11 @@
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1141,
+                    "startOffset": 1923,
                     "endColumn": 54,
-                    "endOffset": 1191
+                    "endOffset": 1973
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",
@@ -320,11 +424,11 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1196,
+                    "startOffset": 1978,
                     "endColumn": 70,
-                    "endOffset": 1262
+                    "endOffset": 2044
                 },
                 "from": {
                     "file": "/Users/hardik/AndroidStudioProjects/Dagger_Testing-Example/faceDetection-OpenCV/openCVSamplefacedetection/src/main/res/values/strings.xml",

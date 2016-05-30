@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/travis/build/Rajawali/Rajawali/rajawali/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="float" name="frameRate"/>
+    <attr format="boolean" name="isTransparent"/>
+    <attr format="boolean" name="multisamplingEnabled"/>
+    <attr format="enum" name="renderMode">
+        <enum name="RENDER_WHEN_DIRTY" value="0"/>
+        <enum name="RENDER_CONTINUOUS" value="1"/>
+    </attr>
+    <attr format="boolean" name="useCoverageAntiAliasing"/>
+    <declare-styleable name="RajawaliSurfaceView"><attr name="frameRate"/><attr name="renderMode"/><attr name="multisamplingEnabled"/><attr name="useCoverageAntiAliasing"/><attr name="isTransparent"/></declare-styleable>
+    <declare-styleable name="RajawaliTextureView"><attr name="frameRate"/><attr name="renderMode"/><attr name="multisamplingEnabled"/><attr name="useCoverageAntiAliasing"/></declare-styleable>
+</resources>

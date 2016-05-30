@@ -312,6 +312,7 @@ class LunarView extends SurfaceView implements SurfaceHolder.Callback {
             mDY = 0;
             mHeading = 0;
             mEngineFiring = true;
+
         }
 
         /**
